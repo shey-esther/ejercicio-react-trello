@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from "redux-zero/react";
+import { Provider } from "redux-zero/react";
+import {NavLink, HashRouter, Switch, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
-import {
-  NavLink,
-} from 'react-router-dom'
 
 const Singin = () => {
     return (
@@ -22,6 +21,6 @@ const Singin = () => {
       </main>
     )
 }
-export default Singin;
-// const mapToProps = ({  }) => ({ });
-// export default connect(mapToProps)(Singin);
+// export default Singin;
+const mapToProps = ({trello }) => ({trello});
+export default connect(mapToProps)(Singin);

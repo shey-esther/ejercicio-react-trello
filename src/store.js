@@ -1,7 +1,6 @@
 import createStore from 'redux-zero'
 
 const initialState = {
-    food: SUSHI,
     foodUser: [],
     selectedItem : -1,
     
