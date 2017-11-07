@@ -1,17 +1,21 @@
+
+
 .bodyfirst{
-  padding: 9% 11% 15% 11%;
+ 
+  /* padding: 9% 11% 15% 11%; */
   text-align: center;
 }
 .bodyfirstboard{
   text-align: center;
-  padding: 1% 0% 3% 0%;
-  background-color: rgba(160, 19, 207, 0.22);
+  /* padding: 1% 0% 3% 0%; */
+  background: #745286;
 }
 body{
-  background-color: rgba(120, 19, 143, 0.57);  
+  background: #89609E; 
 }
 .logo1 {
   display: inline-block;
+  margin-top: 5%;
   background: url(./img/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -20,6 +24,7 @@ body{
   vertical-align: middle;
 }
 .logo {
+  margin: 3%;
   display: inline-block;
   background: url(./img/logo.png);
   background-size: contain;
@@ -27,7 +32,7 @@ body{
   width: 198px;
   vertical-align: middle;
 }
-input{
+.imptall{
   border: 0px none;
   width: 50%;
   padding: 1em;
@@ -35,7 +40,7 @@ input{
   margin: .5em 0;
   box-sizing: inherit;
 }
-button{
+.butontrans{
   transition: all 0.15s ease-out 0s;
   background: transparent;
   color: #fff;
@@ -43,6 +48,11 @@ button{
   width: 53%;
   padding: 1em;
   font-size: 1.1em;
+ }
+ .cols{
+   display: inline-block;
+   margin-right: 10%;
+   margin-left: 10%;
  }
  @media screen and (max-width: 600px){
   .input{
@@ -56,7 +66,11 @@ button{
     
   }
   }
-
+.footer{
+  margin-top: 1%;
+  padding: 2%;
+  background: #745286;
+}
  a{
  text-decoration: none;
   color: rgba(255, 255, 255, 0.5);

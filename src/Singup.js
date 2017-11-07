@@ -13,11 +13,11 @@ const Singup = () => {
         <div className="logo" />
       </header>
       <form >
-        <input type="text" placeholder="First name" required="" />
-        <input type="text" placeholder="Last name" required="" />
-        <input type="email" placeholder="Email" required="" />
-        <input type="password" placeholder="Password" required="" />
-        <input type="password" placeholder="Confirm password" required="" />
+        <input className="imptall" type="text" placeholder="First name" required="" />
+        <input className="imptall"  type="text" placeholder="Last name" required="" />
+        <input className="imptall"  type="email" placeholder="Email" required="" />
+        <input className="imptall"  type="password" placeholder="Password" required="" />
+        <input className="imptall"  type="password" placeholder="Confirm password" required="" />
         <button className="butontrans" type="submit">Sign up</button>
       </form>
       <br />

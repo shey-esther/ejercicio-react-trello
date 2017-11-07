@@ -12,9 +12,9 @@ const Singin = () => {
           <div className="logo" />
         </header>
         <form>
-          <input type="Email" placeholder="Email" required defaultValue="john@phoenix-trello.com"/>
-          <input type="password" placeholder="Password" required defaultValue={12345678}/>
-          <NavLink to={'/Board'}><button type="submit">Sign in</button></NavLink>
+          <input className="imptall" type="Email" placeholder="Email" required defaultValue="john@phoenix-trello.com"/>
+          <input className="imptall" type="password" placeholder="Password" required defaultValue={12345678}/>
+          <NavLink to={'/Board'}><button className="butontrans" type="submit">Sign in</button></NavLink>
         </form>
         <br />
         <NavLink to={'/singup'}>Create new account</NavLink>

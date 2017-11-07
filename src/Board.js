@@ -5,21 +5,40 @@ import { HashRouter, Switch, Route, NavLink } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
+const AddButton = () => {
+ return(
+  <div>
+  <input placeholder="Add list :)......" />
+  <br />
+  <button className>Save</button>
+  <button>Cancel</button>
+</div>
+ )
+}
+const Body = () => {
+  return (
+    <div>
+      <input placeholder="Add list :)......" />
+      <AddButton/>
+    </div>
+  )
+}
 const Board = () => {
   return (
     <row >
       <div className="bodyfirstboard">
-      <div className="col-md-4 col-xs-4 ">
-      <button type="submit"><span className="glyphicon glyphicon-th-list" aria-hidden="true"></span>Boards</button>
+        <div className="col-md-4 col-xs-4 cols">
+          <a type="submit"><span className="glyphicon glyphicon-th-list" aria-hidden="true"></span>Boards</a>
+        </div>
+        <div className="col-md-4 col-xs-4 cols">
+          <div className="logo1" />
+        </div>
+        <div className="col-md-4 col-xs-4 cols">
+          <a type="submit"><span className="glyphicon glyphicon-qrcode" aria-hidden="true"></span>Esther</a>
+          <a type="submit"><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>Sign out</a>
+        </div>
       </div>
-      <div className="col-md-4 col-xs-4">
-        <div className="logo1" />
-      </div>
-      <div className="col-md-4 col-xs-4">
-      <button type="submit"><span className="glyphicon glyphicon-qrcode" aria-hidden="true"></span>Esther</button>
-      <button type="submit"><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>Sign out</button>
-      </div>
-      </div>
+      <Body />
     </row>
   )
 }
