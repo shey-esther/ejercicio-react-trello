@@ -6,20 +6,20 @@ import logo from './logo.svg';
 import './App.css';
 
 const AddButton = () => {
- return(
-  <div>
-  <input placeholder="Add list :)......" />
-  <br />
-  <button className>Save</button>
-  <button>Cancel</button>
-</div>
- )
+  return (
+    <div className="addinit">
+      <input className="addinput1"  placeholder="Add list :)......" />
+      <br />
+      <button className>Save</button>
+      <button>Cancel</button>
+    </div>
+  )
 }
 const Body = () => {
   return (
     <div>
-      <input placeholder="Add list :)......" />
-      <AddButton/>
+      <input className="addinput"  placeholder="Add list :)......" />
+      <AddButton />
     </div>
   )
 }
