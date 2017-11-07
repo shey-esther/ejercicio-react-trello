@@ -14,7 +14,7 @@ const Singin = () => {
         <form>
           <input type="Email" placeholder="Email" required defaultValue="john@phoenix-trello.com"/>
           <input type="password" placeholder="Password" required defaultValue={12345678}/>
-          <button type="submit" >Sign in</button>
+          <NavLink to={'/Board'}><button type="submit">Sign in</button></NavLink>
         </form>
         <br />
         <NavLink to={'/singup'}>Create new account</NavLink>

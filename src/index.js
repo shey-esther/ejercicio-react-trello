@@ -6,6 +6,7 @@ import store from "./store";
 import './index.css';
 import Singup from './Singup';
 import Singin from './Singin';
+import Board from './Board';
 import registerServiceWorker from './registerServiceWorker';
 import {
   HashRouter,
@@ -26,6 +27,7 @@ class App extends Component {
             <Route exact path="/" component={Singin} />
             <Route exact path="/singin" component={Singin} />
             <Route exact path="/singup" component={Singup} />
+            <Route exact path="/board" component={Board} />
           </Switch>
         </HashRouter>
       </Provider>

@@ -2,10 +2,23 @@
   padding: 9% 11% 15% 11%;
   text-align: center;
 }
-body{
-  background-color: rgba(110, 16, 110, 0.69);  
+.bodyfirstboard{
+  text-align: center;
+  padding: 1% 0% 3% 0%;
+  background-color: rgba(160, 19, 207, 0.22);
 }
-
+body{
+  background-color: rgba(120, 19, 143, 0.57);  
+}
+.logo1 {
+  display: inline-block;
+  background: url(./img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 100px;
+  vertical-align: middle;
+}
 .logo {
   display: inline-block;
   background: url(./img/logo.png);

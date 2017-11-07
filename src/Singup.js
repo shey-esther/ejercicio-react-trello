@@ -22,10 +22,14 @@ const Singup = () => {
       </form>
       <br />
       <NavLink to={'/singin'} >Sing in</NavLink>
+      <div className="footer">
+        <a href="https://trello.com" className="new">
+          Trello
+        </a>
+      </div>
     </main>
   )
 }
 
-// export default Singup;
 const mapToProps = ({ trello }) => ({ trello });
 export default connect(mapToProps)(Singup);
